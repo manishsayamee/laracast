@@ -5,7 +5,7 @@
 <body>
 
     <article>
-        <h1><a href="/post"> My first blog</a></h1>
+        <h1><a href="/posts/first-post"> My first blog</a></h1>
 
         <p>Gary Vaynerchuk is the chairman of VaynerX, a modern-day media and communications holding company, 
             and the active CEO of VaynerMedia, a full-service advertising agency servicing Fortune 100 clients 
@@ -19,7 +19,7 @@
     </article>
 
     <article>
-        <h1><a href='/post'>My second blog</a></h1>
+        <h1><a href='/posts/second-post'>My second blog</a></h1>
 
         <p>Gary Vaynerchuk is the chairman of VaynerX, a modern-day media and communications holding company, 
             and the active CEO of VaynerMedia, a full-service advertising agency servicing Fortune 100 clients 
@@ -34,7 +34,7 @@
     </article>
     <article>
         
-        <h1><a href='/post'> My third blog</a></h1>
+        <h1><a href='/post/third-post'> My third blog</a></h1>
 
         <p>Gary Vaynerchuk is the chairman of VaynerX, a modern-day media and communications holding company, 
             and the active CEO of VaynerMedia, a full-service advertising agency servicing Fortune 100 clients 
