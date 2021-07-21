@@ -1,11 +1,11 @@
-@extends('layout')
+<x-layout>
 
-@section('content')
+<x-slot">
 
 <article>
     <h1>{{ $post->title }}</h1>
     <div>
-        {!! $post->boby !!}
+        {!! $post->body !!}
     </div>
 </article>
 
@@ -13,4 +13,4 @@
 <a href='/' >Go Back</a>
 
 
-@endsection
+</x-layout>

@@ -1,18 +1,18 @@
 <x-layout>
 
-<!-- <x-slot"> -->
+<x-slot">
 @foreach ($posts as $post) 
 
 <article>
     <h1>
-        <a href="/posts/{{ $post->slug }}">
-        <!-- {{ $post->title }}</a> -->
+        <a href="/posts/{{ $post->id }}">
+        {{ $post->title }}</a>
     </h1>
 
 
     <div>
 
-    {{ $post->title }}
+    {{ $post->excerpt }}
     </div>
 
 
