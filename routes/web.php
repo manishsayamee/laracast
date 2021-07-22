@@ -163,13 +163,13 @@ Route::get ('posts/{post:slug}', function(Post $post){
 
 Route::get('categories/{category:slug}', function (Category $category){
     return view('posts', [
-        'post'=>$category->posts
+        'post'=>$category->posts->load(["category", 'author'])
     ]);
 });
 
 Route::get('authors/{author:username}', function (User $author){
     // dd($author);
     return view('posts', [
-        'posts'=>$author->posts
+        'posts'=>$author->posts->load(["category", "author"])
     ]);
 });
